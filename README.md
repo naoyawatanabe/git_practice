@@ -16,7 +16,10 @@
     * 直前の動作をやり直したい/git reflog, git reset
     * 前のコミットを取り消したい/ git revert コミット番号
     * 前のコミットと一緒にコミットしたい差分があった/ git commit --amend
-    * git push origin master って打つのが面倒/git push -u origin masterってしておくと、次回からgit push
+    * git push origin master って打つのが面倒
+        * git config --global push.default upstream
+        * git push -u origin masterってしておくと、次回からgit push
+        * http://keijinsonyaban.blogspot.jp/2010/11/git-tips.html
     * ローカルのブランチを消したい/git branch -D ブランチ名
     * リモートのブランチを消したい/git push origin :ブランチ名
     * もっと困った/http://www.backlog.jp/git-guide/reference/
@@ -29,7 +32,7 @@
     * branch1というbranchを作り、README.md をコピーしたファイルを作って"change README.mdのコピーを作成"という名前でコミットしてください
     * コピーしたファイルの中身を書き換えてpushしてください
     * プルリクエストを作成し、masterにmergeしてください。
-　　* branch2というbranchをmasterから作ってください。
+    * branch2というbranchをmasterから作ってください。
     * README.mdの１行目を書き換えてください
     * コミットしてください。
     * README.mdの2行目を書き換えてください
