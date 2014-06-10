@@ -1,4 +1,4 @@
-* 基本的なコマンド
+* 基本的なコマンドかな？
     * masterブランチから開発用の新しいブランチを作る/git checkout -b new_branch_name
     * 今のローカルの状態を見たい時/git status
     * ローカルで書いた差分を見る/git diff
